@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Navigation/Heading Style */
+.nav {
+    background-color: rgb(248, 249, 250);
+    width: 97%;
+    margin: 0px auto;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation-opt{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.nav-item a button {
+    padding: 10px 17px;
+    border: 1px solid rgb(25, 135, 84);
+    color: rgb(25, 135, 84);
+    background-color: transparent;
+    font-size: 16px;
+    border-radius: 4px;
+}
+.nav-item a button:hover {
+    background-color: rgb(25, 135, 84);
+    color: white;
+}
+
+/* Banner-1 Styling */
+.banner-1 {
+    display: flex;
+    width: 82%;
+    margin: 60px auto;
+}
+
+.banner-left {
+    width: 50%;
+    padding-top: 40px;
+}
+
+.banner-left h2 {
+    font-size: 32px;
+    color: rgb(33, 37, 41);
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.banner-left p {
+    font-size: 16px;
+    color: rgb(33, 37, 41);
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.banner-left button {
+    padding: 8px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(33, 37, 41);
+    border: transparent;
+    border-radius: 5px;
+}
+
+.banner-right {
+    width: 50%;
+}
+
+.banner-right img {
+    width: 80%;
+    margin-left: 40px;
+
+}
+
+/*Banner-2 Company-Logo-Section */
+
+.company-logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Main Body */
+main {
+    width: 85%;
+    margin: 50px auto;
+}
+
+/* Banner-3 Services Section */
+.service-banner {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding-bottom: 100px;
+}
+
+.service-txt {
+    padding: 15px 20px;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: rgb(204, 255, 0);
+}
+
+.service-banner p {
+    font-size: 18px;
+    margin: 0px 15px;
+}
+
+/* Banner-4 Styling */
+.banner-4 {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.search-engine {
+    width: 47%;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 243, 243);
+}
+
+.content-left {
+    width: 55%;
+    padding: 80px 50px;
+}
+
+.heading {
+    padding-bottom: 60px;
+}
+
+.heading h2 {
+    font-size: 26px;
+    font-weight: 700;
+    background-color: rgb(204, 255, 0);
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.adversting {
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(204, 255, 0);
+}
+
+.heading>.adversting-heading {
+    background-color: rgb(243, 243, 243);
+}
+
+/* Banner-5 Styling */
+.banner-5 {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.working-progress-txt {
+    background-color: rgb(204, 255, 0);
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.work-progress {
+    width: 100%; 
+    font-size: 18px; 
+    text-align: start;
+}
+
+
+/* Banner-6 Styling */
+.banner-6 {
+    padding-top: 90px;
+    width: 97%;
+    margin: 0px auto;
+}
+
+/* General Styles */
+
+.accordion-item {
+    margin-bottom: 50px;
+
+}
+
+.accordion-header {
+    padding: 0;
+    margin: 0;
+}
+
+.accordion-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    background-color: white;
+    box-shadow: none;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    padding: 20px;
+
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #d9ff00;
+}
+
+.accordion-button {
+  border: 1px solid black;
+  border-radius: 50px;
+    box-shadow: 0 5px 0px black;
+}
+
+.accordion-title {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.number {
+    font-size: 3.2rem;
+    font-weight: 600;
+    margin-right: 15px;
+   
+}
+
+.text {
+    padding-left: 30px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    display: inline-block;
+    color: black;
+}
+
+.accordion-body {
+    padding: 15px 20px;
+    font-size: 1rem;
+    background-color: #d9ff00;
+    border-top: 1px solid #ddd;
+    color: black;
+    line-height: 1.8rem;
+}
+
+/* Banner-7 Styling Contact */
+.banner-7 {
+    padding: 100px 0; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.contact-txt {
+    background-color: rgb(204, 255, 0);
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.contact-description {
+    font-size: 18px; 
+    text-align: start;
+    width: 100%; 
+}
+
+
+/* Banner-8 Styling Form */
+.banner-8 {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(243, 243, 243);
+    border-radius: 15px;
+    padding: 20px;
+}
+.form-left {
+    padding: 20px;
+}
+.form-content {
+    padding-top: 20px;
+}
+.form-content input {
+    border-radius: 40px;
+    background-color: transparent;
+    padding: 5px 15px;
+}
+.textarea {
+    width: 100%;
+    padding: 10px;
+    height: 100px;
+    border: transparent;
+    outline: none;
+}
+.btn {
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+
+.form-right img {
+   max-width: 100%;
+    height: auto;
+}
+
+/* Footer */
+@media (min-width: 576px) {
+    .form-left {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) {
+    .banner-8 {
+        flex-direction: row;
+    }
+    .form-left {
+        width: 50%;
+    }
+    .form-right {
+        width: 50%;
+    }
+}
+@media screen and (min-width: 980px){
+    .navigation-opt{
+        align-items: start;
+    }
+}
